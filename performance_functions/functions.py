@@ -12,6 +12,7 @@ def find_best_sellers_list(
 
     Args:
         df_actions (pandas.DataFrame): Filtered users actions DataFrame,
+        df_cart (pandas.DataFrame): Filtered users cart DataFrame,
         experiment_name (str): String with experiment name.
         brand (bool): If True list of brands compile
 
